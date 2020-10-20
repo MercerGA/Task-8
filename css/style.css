@@ -36,6 +36,12 @@
     color: rgb(68, 68, 68);
     font-family: 'Poppins';
 }
+.navtext:hover {
+    color: snow;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+}
 /* Header */
 /* Section */
 .loadingtext {
