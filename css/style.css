@@ -1,0 +1,108 @@
+/* Defaults */
+.clear {
+    clear: both;
+}
+.boddypadding {
+    padding-bottom: 140px;
+    margin-bottom: 300px;
+    background-color: grey;
+}
+.body {
+    background-color: rgb(40, 44, 52);
+}
+.section {
+    width: 100%;
+}
+/* Defaults */
+/* Header */
+.mainlogo {
+    width: 100px;
+    float: left;
+    margin: 20px 30px 0px 30px;
+    padding-bottom: 20px;
+}
+.navigation {
+    float: left;
+    width: 100%;
+    position: fixed;
+    background-color: orange;
+    border: solid 3px grey;
+}
+.navtext {
+    float: left;
+    padding-left: 25px;
+    font-size: 20px;
+    margin: 60px 0px 0px 0px;
+    color: rgb(68, 68, 68);
+    font-family: 'Poppins';
+}
+/* Header */
+/* Section */
+.loadingtext {
+    font-size: 40px;
+    color: orange;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-bottom: 20px;
+}
+.orangebox {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    float: left;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    border-radius: 4px;
+    margin: 0px 0px 0px 0px;
+}
+.first {
+    animation: first 4s infinite;
+    animation-timing-function: linear;
+}
+@keyframes first {
+    0%   {left: 0px;}
+    25%  {left: 700px;}
+    50%  {left: 750px;}
+    75%  {left: 800px;}
+    100% {left: 1500px}
+}
+.second {
+    animation: second 4s infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.3s;
+}
+@keyframes second {
+    0%   {left: 0px;}
+    25%  {left: 700px;}
+    50%  {left: 750px;}
+    75%  {left: 800px;}
+    100% {left: 1500px}
+}
+.third {
+    animation: third 4s infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.6s;
+}
+@keyframes third {
+    0%   {left: 0px;}
+    25%  {left: 700px;}
+    50%  {left: 750px;}
+    75%  {left: 800px;}
+    100% {left: 1500px}
+}
+.fourth {
+    animation: forth 4s infinite;
+    animation-timing-function: linear;
+    animation-delay: 0.9s;
+}
+@keyframes forth {
+    0%   {left: 0px;}
+    25%  {left: 700px;}
+    50%  {left: 750px;}
+    75%  {left: 800px;}
+    100% {left: 1400px}
+}
+/* Section */
+/* Animation */
+
